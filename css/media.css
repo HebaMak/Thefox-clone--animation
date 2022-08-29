@@ -1,0 +1,926 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+    .header .content h1 {
+        font-size: 32px;
+    }
+
+    .header .content p {
+        font-size: 15px;
+    }
+
+    .header .content a {
+        text-decoration: none;
+        padding: 8px 12px;
+        font-size: 13px;
+    }
+
+    .navbar-light .navbar-nav .nav-item .nav-link {
+        line-height: 30px;
+        padding-left: 25px;
+    }
+
+    .navbar-light .navbar-nav .nav-item:first-child {
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+
+    .navbar-light .navbar-nav .nav-item:nth-of-type(odd) {
+        background-color: #ffffff;
+    }
+
+    .navbar-light .navbar-nav .nav-item:nth-of-type(even) {
+        background-color: #f3f3f3;
+    }
+
+    .page .title p {
+        font-size: 12.5px;
+    }
+
+    .page .content .first-part ,
+    .page .content .second-part {
+        width: 90%;
+        margin: 0 5%;
+    }
+
+    .special-product .title p {
+        font-size: 13px;
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        height: 30px;
+        width: 30px;
+    }
+
+    .carousel-control-next-icon:after ,
+    .carousel-control-prev-icon:after {
+        font-size: 20px;
+        top: -3px;
+    }
+
+    .special-product .products .part1 .first ,
+    .special-product .products .part1 .second {
+        width: 90%;
+        margin: 0 5% 30px;
+    }
+
+    .special-product .products .part2 .first ,
+    .special-product .products .part2 .second ,
+    .special-product .products .part2 .third { 
+        width: 80%;
+        margin: 0 10% 20px;;
+    }
+
+    .special-product .products .theLink {
+        left: 38%;
+    }
+
+    .special-product .products .theSearch {
+        left: 50%;
+    }
+
+    .testimonials .overlay .text p {
+        font-size: 15px;
+    }
+
+    .features .title p {
+        font-size: 13px;
+    } 
+
+    .features .content p {
+        font-size: 14.7px;
+    }
+
+    .features .content .leftSide,
+    .features .content .rightSide {
+    width: 100%;
+    margin:  0 ;
+    }
+
+    .features .content .leftSide {
+        margin-bottom: 30px;
+    }
+
+    .features .content h5 {
+        font-size: 14px; 
+    } 
+
+    .posts .content .leftPostPart ,
+    .posts .content .rightPostPart{
+        float: none;
+        width: 100%;
+        margin: 5px 5% 50px;
+        position: relative;
+    }
+
+    .posts .content .leftPostPart:after ,
+    .posts .content .rightPostPart:after {
+        width:100%;
+        top:42px;
+    }
+
+    .motherCarousel .carousel-item img {
+        width: 445px;
+    }
+
+    .motherCarousel .second-crousel{
+        height: 85px;
+        width: 445px;
+    }
+
+    .motherCarousel .second-crousel .carousel-item h4 {
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .motherCarousel .second-crousel .carousel-item h6 {
+        font-size: 12px;
+        font-weight: normal;
+    }
+
+    .motherCarousel .second-crousel .carousel-control-next {
+        height: 85px;
+        width: 55px;
+        right: 0;
+    }
+
+    .motherCarousel .second-crousel .carousel-control-prev {
+        height: 85px;
+        width: 55px;
+        left: 335px;
+    }
+
+    .rightPostPart .item .itemContent p {
+        font-size:13px;
+    }
+
+    .lastNews .item .img {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .lastNews .item .theLink {
+        left: 50%;
+    }
+    
+    .lastNews .item .theSearch {
+        left: 37%;	
+    }
+
+    .lastNews .item h5 {
+        font-size: 18px;
+        margin-left: 10%;
+    }
+
+    .lastNews .item h6 {
+        font-size: 14px;
+        font-weight: 600;
+        margin-left: 10%;
+    }
+
+    .lastNews .item p {
+        font-size: 16px;
+        margin: 0 10% ;
+    }
+
+    .socialMedia .awsome {
+        width: 65px;
+        height: 65px;
+        margin-right: 1.5%;
+        font-size: 20px;
+    }
+
+    .socialMedia .awsome:first-of-type {
+        margin-left: 5%;
+    }
+    
+    .featuredPosts .item h5 {
+        font-size: 20px;
+        margin: 20px 5% 10px;
+    }
+
+    .featuredPosts .item h6 {
+        font-size: 16px;
+        font-weight: 600;
+        margin: 10px 5%;
+    }
+
+    .featuredPosts .item p {
+        color : rgb(140, 153, 190);
+        width: 90%;
+        font-size: 16px;
+        margin: 10px 5%;
+    }
+
+    .featuredPosts .item .img  {
+        width: 90%;
+        margin: 0 5%;
+    }
+
+    .activites .item p {
+        width: 90%;
+        margin: 0 5%;
+    }
+
+    .purchasing h2 {
+        margin-bottom: 30px;
+        font-size: 24px;
+    }
+    
+    .purchasing h6 {
+        font-size: 14px;
+        margin-bottom: 30px;
+        width: 80%;
+    }
+
+    .purchasing a {
+        width: 140px;
+        font-size: 12px;
+    }
+
+    #scroll-up {
+        bottom: 75px;
+    }
+
+    .footer .upperFooter .firstItem .span {
+        margin: 24px 0 40px;
+    }
+
+    .firstItem .footerSocialMedia .awsome {
+        margin-bottom: 10px; 
+        font-size: 10px;
+    }
+
+    .firstItem .footerSocialMedia i {
+        font-size: 16px;
+    }
+
+    .footer .upperFooter .secondItem .theLeft .img {
+        margin: 0;
+    }
+
+    .footer .upperFooter .fourthItem .imgs .img .overlay i{
+        font-size: 22px;
+    }
+
+    .footer .upperFooter .secondItem .theRight h6 {
+        color: rgb(219, 213, 213);
+        margin: -5px 0 3px;
+        font-weight: 600;
+    }
+    
+    .footer .upperFooter .secondItem .theRight span {
+        margin-bottom: -6px;
+        margin-top: -15px
+    }
+
+    .footer .upperFooter .thirdItem .firstUL li {
+        padding: 8px 10px;
+        margin: 0 10px 10px 0;
+    
+    }
+
+    .footer .upperFooter .fourthItem form input {
+        width: 98%;
+    }
+    
+    .footer .upperFooter .fourthItem  form i {
+        padding: 9px 14px;
+        margin-left: -48px;
+    }
+
+    .footer .lowerFooter h6 {
+        font-size: 15px;
+    }
+
+    .footer .lowerFooter .socialMedia {
+        text-align: center;
+    }
+
+    .page .title h2 ,
+    .special-product h2 ,
+    .features .title h2 ,
+    .blog .title h2 ,
+    .posts .content h2 ,
+    .lastNews h2 ,
+    .social  .title h2 , 
+    .featuredPosts h2 {
+        font-size: 26px;
+    }
+
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    
+    .header .content h1 {
+        font-size: 34px;
+    }
+
+    .header .content a {
+        text-decoration: none;
+        padding: 8px 12px;
+        font-size: 15px;
+    }
+
+    .header .content p {
+        font-size: 17px;
+    }
+
+    .navbar-light .navbar-nav .nav-item .nav-link {
+        line-height: 30px;
+        padding-left: 40px;
+    }
+
+    .navbar-light .navbar-nav .nav-item:first-child {
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+
+    .navbar-light .navbar-nav .nav-item:nth-of-type(odd) {
+        background-color: #ffffff;
+    }
+
+    .navbar-light .navbar-nav .nav-item:nth-of-type(even) {
+        background-color: #f3f3f3;
+    }
+
+    .page .title p {
+        font-size: 13px;
+    }
+
+    .page .content .first-part ,
+    .page .content .second-part {
+        width: 90%;
+        margin: 0 5%;
+    }
+
+    .special-product .title p {
+        font-size: 15px;
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        height: 30px;
+        width: 30px;
+    }
+
+    .carousel-control-next-icon:after ,
+    .carousel-control-prev-icon:after {
+        font-size: 20px;
+        top: -3px;
+    }
+
+    .special-product .products .part1 .first ,
+    .special-product .products .part1 .second {
+        width: 90%;
+        margin: 0 5% 30px;
+    }
+
+    .special-product .products .part2 .first ,
+    .special-product .products .part2 .second ,
+    .special-product .products .part2 .third { 
+        width: 80%;
+        margin: 0 10% 20px;;
+    }
+
+    .special-product .products .theLink {
+        left: 38%;
+    }
+
+    .special-product .products .theSearch {
+        left: 50%;
+    }
+
+    .testimonials .overlay .text p {
+        font-size: 16px;
+    }
+
+    .testimonials .overlay .text h6 {
+        font-weight: 600;
+    }
+
+    .features .title p {
+        font-size: 15px;
+    } 
+
+    .features .content .leftSide,
+    .features .content .rightSide {
+    width: 100%;
+    margin:  0 ;
+    }
+
+    .features .content .leftSide {
+        margin-bottom: 30px;
+    }
+
+    .features .content h5 {
+        font-size: 15px; 
+    } 
+
+    .posts .content .leftPostPart ,
+    .posts .content .rightPostPart{
+        float: none;
+        width: 100%;
+        margin: 5px 5% 50px;
+        position: relative;
+    }
+
+    .posts .content .leftPostPart:after ,
+    .posts .content .rightPostPart:after {
+        width: 580px;
+        top: 42px;
+    }
+
+
+    .motherCarousel .second-crousel{
+        height: 85px;
+    }
+
+    .motherCarousel .second-crousel .carousel-item h4 {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .motherCarousel .second-crousel .carousel-item h6 {
+        font-size: 13px;
+        font-weight: normal;
+    }
+
+    .motherCarousel .second-crousel .carousel-control-next {
+        height: 85px;
+        width: 55px;
+        right: 60px;
+    }
+
+    .motherCarousel .second-crousel .carousel-control-prev {
+        height: 85px;
+        width: 55px;
+        left: 373px;
+    }
+
+    .rightPostPart .item .itemContent p {
+        font-size: 14.5px;
+    }
+
+    .lastNews .item .theLink {
+        left: 53%;
+    }
+    
+    .lastNews .item .theSearch {
+        left: 39%;	
+    }
+
+    .lastNews .item h5 {
+        font-size: 20px;
+    }
+
+    .lastNews .item h6 {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .lastNews .item p {
+        font-size: 16px;
+    }
+
+    .socialMedia .awsome {
+        width: 75px;
+        height:75px;
+        margin-right: 1%;
+        font-size: 22px;
+    }
+
+    .socialMedia .awsome:first-of-type {
+        margin-left: 10px;
+    }
+
+    .featuredPosts .item .img img {
+        width: 100%;
+        
+    }
+    
+    .featuredPosts .item h5 {
+        font-size: 20px
+    }
+
+    .featuredPosts .item h6 {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .featuredPosts .item p {
+        color : rgb(140, 153, 190);
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .purchasing h2 {
+        margin-bottom: 30px;
+        font-size: 26px;
+    }
+    
+    .purchasing h6 {
+        font-size: 14px;
+        margin-bottom: 30px;
+        width: 80%;
+    }
+
+    .purchasing a {
+        width: 140px;
+        font-size: 12px;
+    }
+
+    #scroll-up {
+        bottom: 70px;
+    }
+
+    .footer .upperFooter .firstItem .span {
+        margin: 24px 0 40px;
+    }
+
+    .firstItem .footerSocialMedia .awsome {
+        margin-bottom: 10px; 
+        font-size: 10px;
+    }
+
+    .firstItem .footerSocialMedia i {
+        font-size: 16px;
+    }
+
+    .footer .upperFooter .secondItem .theLeft .img {
+        margin: 0;
+    }
+
+    .footer .upperFooter .fourthItem .imgs .img .overlay i{
+        font-size: 22px;
+    }
+
+
+    .footer .upperFooter .secondItem .theRight h6 {
+        color: rgb(219, 213, 213);
+        margin: -5px 0 3px;
+        font-weight: 600;
+    }
+    
+    .footer .upperFooter .secondItem .theRight span {
+        margin-bottom: -6px;
+        margin-top: -15px
+    }
+
+
+    .footer .upperFooter .thirdItem .firstUL li {
+        padding: 8px 10px;
+        margin: 0 10px 10px 0;
+    
+    }
+
+    .footer .upperFooter .fourthItem form input {
+        width: 98%;
+    }
+    
+    .footer .upperFooter .fourthItem  form i {
+        padding: 9px 14px;
+        margin-left: -48px;
+    }
+
+    .footer .lowerFooter .socialMedia {
+        text-align: center;
+    }
+
+    .page .title h2 ,
+    .special-product h2 ,
+    .features .title h2 ,
+    .blog .title h2 ,
+    .posts .content h2 ,
+    .lastNews h2 ,
+    .social  .title h2 , 
+    .featuredPosts h2 {
+        font-size: 30px;
+    }
+
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .navbar-light .navbar-nav .nav-item .nav-link {
+    line-height: 30px;
+    padding-left: 40px;
+    }
+
+    .navbar-light .navbar-nav .nav-item:first-child {
+        margin-left: 0px;
+        margin-top: 25px;
+    }
+
+    .navbar-light .navbar-nav .nav-item:nth-of-type(odd) {
+        background-color: #ffffff;
+    }
+
+    .navbar-light .navbar-nav .nav-item:nth-of-type(even) {
+        background-color: #f3f3f3;
+    }
+
+    .page .content .first-part ,
+    .page .content .second-part {
+        width: 90%;
+        margin: 0 5%;
+    }
+
+    .page .title p {
+        font-size: 15px;
+    }
+
+    .special-product .products h5 {
+        font-size: 17px;
+    }
+
+    .special-product .products .theLink {
+        left: 32%;
+    }
+
+    .special-product .products .theSearch {
+        left: 52%;
+    }
+
+    .features .content .leftSide ,
+    .features .content .rightSide {
+    width: 90%;
+    margin: 0 5%;
+    }
+
+    .features .title p {
+        font-size: 17px;
+    } 
+
+    .posts .content h2 {
+        font-size: 30px;
+    }
+
+    .posts .content .leftPostPart ,
+    .posts .content .rightPostPart {
+        float: none;
+        width: 80%;
+        margin: 5px 10% 50px;
+        position: relative;
+    }
+
+    .posts .content .leftPostPart:after ,
+    .posts .content .rightPostPart:after {
+        width: 552px;
+        top: 46px;
+    }
+
+    .motherCarousel .second-crousel .carousel-item h4 {
+        font-weight: 500;
+    }
+
+    .motherCarousel .second-crousel .carousel-item h6 {
+        font-weight: 400;
+    }
+
+    .lastNews .item .theLink {
+        left: 54%;
+    }
+    
+    .lastNews .item .theSearch {
+        left: 32%;	
+    }
+
+    .lastNews .item h5 {
+        font-size: 13px;
+    }
+
+    .lastNews .item h6 {
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    .lastNews .item p {
+        font-size: 13.5px;
+    }
+
+    .socialMedia .awsome {
+        width: 85px;
+        height: 85px;
+        font-size: 30px;
+    }
+
+    .featuredPosts .item .img img {
+        max-width: 100%;
+        cursor: pointer;
+        
+    }
+    
+    .featuredPosts .item p {
+        color : rgb(140, 153, 190);
+        width: 80%;
+    }
+
+    .purchasing h2 {
+        font-size: 28px;
+        margin-bottom: 30px;
+    }
+    
+    .purchasing h6 {
+        font-size: 15px;
+        margin-bottom: 30px;
+        width: 80%;
+    }
+
+    .purchasing a {
+        width: 150px;
+        font-size: 14px;
+    }
+
+    #scroll-up {
+        bottom: 50px;
+    }
+
+    .footer .upperFooter .firstItem .span {
+        margin: 24px 0 40px;
+    }
+
+    .firstItem .footerSocialMedia .awsome {
+        margin-bottom: 10px 
+    }
+
+    .footer .upperFooter .fourthItem .imgs .img .overlay i{
+        font-size: 22px;
+    }
+
+    .footer .upperFooter .fourthItem form input {
+        width: 98%;
+    }
+    
+    .footer .upperFooter .fourthItem  form i {
+        padding: 9px 14px;
+        margin-left: -48px;
+    }
+
+    .footer .lowerFooter .socialMedia {
+        text-align: center;
+
+    }
+
+}
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .navbar-light .navbar-nav .nav-link {
+        padding-right: 20px;
+    }
+
+    .navbar-light .navbar-nav .nav-item:first-child {
+        margin-left: 20px;
+    }
+
+    .page .title p {
+        font-size: 17px;
+    }
+
+    .special-product .products .theLink {
+        left: 34%;
+    }
+
+    .special-product .products .theSearch {
+        left: 50%;
+    }
+
+    .features .content .leftSide .itemOfLeftSide .rightOfLeft ,
+    .features .content .rightSide .itemOfRightSide .leftOfRight {
+        height: 113px;
+    }
+
+    .features .content h5 {
+        font-size: 13px;
+    }
+
+    .features .content p {
+        font-size: 14px;
+    }
+
+    .posts .content .leftPostPart:after ,
+    .posts .content .rightPostPart:after {
+        width : 455px;
+    }
+
+    .motherCarousel .carousel-item img{
+        width: 455px;
+        height: 538px;
+    } 
+
+    .motherCarousel {
+        width: 455px;
+    }
+
+    .motherCarousel .second-crousel{
+        height: 85px;
+        width: 455px;
+    }
+
+    .motherCarousel .second-crousel .carousel-item h4 {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .motherCarousel .second-crousel .carousel-item h6 {
+        font-size: 13px;
+        font-weight: normal;
+    }
+
+    .motherCarousel .second-crousel .carousel-control-next {
+        height: 85px;
+        width: 55px;
+    }
+
+    .motherCarousel .second-crousel .carousel-control-prev {
+        height: 85px;
+        width: 55px;
+        left: 344px;
+    }
+
+    .rightPostPart .item {
+        margin: 47px 0;
+    }
+
+    .rightPostPart .item .itemContent h6 {
+        margin-bottom: 9px;
+    }
+
+    .rightPostPart .item .itemContent h5 {
+        margin-bottom: 0px;
+    }
+
+    .rightPostPart .item .itemContent p {
+        font-size: 14.5px;
+    }
+
+    .socialMedia .awsome {
+        width: 120px;
+        height: 120px;
+        margin-right: 3.5%;
+    }
+
+    .lastNews .item .theLink {
+        left: 52%;
+    }
+
+    .lastNews .item .theSearch {
+        left: 34%;	
+    }
+
+    .lastNews .item h5 {
+        font-size: 18px;
+    }
+
+    .featuredPosts .item h5 {
+        font-size: 13px
+    }
+
+    .featuredPosts .item h6 {
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    .activites .item h5 {
+        font-size: 16px;
+        margin: 0 0 20px 10px;
+    }
+
+    .activites .item p {
+        color : rgb(95, 102, 122);
+        text-align: justify
+    }
+
+    .purchasing h2 {
+        font-size: 27px;
+    }
+
+    #scroll-up {
+        bottom: 50px;
+    }
+
+    .footer .upperFooter .fourthItem .imgs .img .overlay i{
+        font-size: 20px;
+    }
+
+    .footer .upperFooter .fourthItem form input {
+        width: 20px;
+    }
+
+    .footer .upperFooter .fourthItem  form i {
+        padding: 9px 14px;
+        margin-left: -48px;
+    }
+}
+
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
